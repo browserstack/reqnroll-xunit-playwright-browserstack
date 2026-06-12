@@ -1,0 +1,26 @@
+# .NET build output
+bin/
+obj/
+*.user
+*.suo
+
+# Test / SDK artifacts
+TestResults/
+log/
+local.log
+*.log
+screenshot.png
+
+# Reqnroll generated feature code-behind
+*.feature.cs
+
+# Playwright
+.playwright/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# Credentials — never commit
+*.env
